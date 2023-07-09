@@ -1,0 +1,5 @@
+.venv
+.vscode
+api.http
+data
+**/__pycache__

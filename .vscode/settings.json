@@ -1,0 +1,18 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#006f32",
+    "titleBar.activeBackground": "#006f32",
+    "titleBar.activeForeground": "#F0FEEB"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/__pycache__": true,
+    "**/__init__.py": true
+  },
+  "search.exclude": {
+    "**/.venv": true
+  }
+}

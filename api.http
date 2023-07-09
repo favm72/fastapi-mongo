@@ -1,0 +1,19 @@
+@host=http://localhost:5000
+
+###
+GET {{host}}/
+
+###
+GET {{host}}/account/find/1068dfef-6d6b-4176-9e15-abdeb99f5bee
+
+###
+GET {{host}}/account/list
+
+###
+POST {{host}}/account/create
+Content-Type: application/json
+
+{
+    "name": "test",
+    "email": "test@test.com"
+}
